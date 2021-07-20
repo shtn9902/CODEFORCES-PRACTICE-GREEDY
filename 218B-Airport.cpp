@@ -1,8 +1,9 @@
-// https://codeforces.com/problemset/problem/218/B//
-218 B : Airport
-Data structure used: MinHeap and MaxHeap
-My own unique approach of the question
-
+						// https://codeforces.com/problemset/problem/218/B//	
+	/*
+		218 B : Airport
+		Data structure used: MinHeap and MaxHeap
+		My own unique approach of the question
+	*/
 
 #include<bits/stdc++.h>
 using namespace std;
