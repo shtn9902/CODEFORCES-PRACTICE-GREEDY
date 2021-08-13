@@ -34,3 +34,29 @@ int main(){
 	}
 	cout<<ans;		
 }
+/* another very simple approach :
+	int n;
+	cin>>n;
+	int arr[n];
+	for(int i=0;i<n;i++){
+		cin>>arr[i];
+	}
+	sort(arr,arr+n);
+	int index[102];
+	for(int i=0;i<102;i++) index[i]=0;
+	int cnt=0,pile=0;
+	vector<int> v;
+	while(cnt!=n){
+		pile+=1;
+		for(int i=0;i<n and cnt<n ;i++){
+			int l = v.size();
+			if( arr[i]>=l and index[i]==0 ){
+				v.push_back(arr[i]);
+				cnt+=1;
+				index[i]=1;
+			}
+		}
+		v.clear();
+	}
+	cout<<pile;
+*/	
